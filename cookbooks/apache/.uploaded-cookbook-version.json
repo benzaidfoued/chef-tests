@@ -1,0 +1,122 @@
+{
+  "all_files": [
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "checksum": "bf3c1224594bd503ad92a7e1042aa9c8",
+      "specificity": "default"
+    },
+    {
+      "name": "CHANGELOG.md",
+      "path": "CHANGELOG.md",
+      "checksum": "23f1386e42448a9958608b10b8e74040",
+      "specificity": "default"
+    },
+    {
+      "name": "chefignore",
+      "path": "chefignore",
+      "checksum": "8218f5e138ec098a9ec618082f05a9b8",
+      "specificity": "default"
+    },
+    {
+      "name": "Berksfile",
+      "path": "Berksfile",
+      "checksum": "8c8bbef226c6ee425efaf94c201f4152",
+      "specificity": "default"
+    },
+    {
+      "name": "LICENSE",
+      "path": "LICENSE",
+      "checksum": "0c21163b20ec1cb25b825a9744b95eb6",
+      "specificity": "default"
+    },
+    {
+      "name": ".kitchen.yml",
+      "path": ".kitchen.yml",
+      "checksum": "5ae65ae636da79300a88701c7492da09",
+      "specificity": "default"
+    },
+    {
+      "name": "test/default_test.rb",
+      "path": "test/integration/default/default_test.rb",
+      "checksum": "77c606e1ef1cec063740d7f6bd805a71",
+      "specificity": "default"
+    },
+    {
+      "name": "spec/spec_helper.rb",
+      "path": "spec/spec_helper.rb",
+      "checksum": "b8101caaeba977d51dc1fa5dd6282ded",
+      "specificity": "default"
+    },
+    {
+      "name": "spec/default_spec.rb",
+      "path": "spec/unit/recipes/default_spec.rb",
+      "checksum": "436ef25fd860ca0a5fe79da13d361bd4",
+      "specificity": "default"
+    },
+    {
+      "name": "recipes/default.rb",
+      "path": "recipes/default.rb",
+      "checksum": "b5efd8b69c61fb887a93f85154f0a91d",
+      "specificity": "default"
+    },
+    {
+      "name": "recipes/website.rb",
+      "path": "recipes/website.rb",
+      "checksum": "6e92759cdca1c7088918a1fb5289331e",
+      "specificity": "default"
+    },
+    {
+      "name": "metadata.rb",
+      "path": "metadata.rb",
+      "checksum": "6b96097a3da8d1da9a0c1d5c25963782",
+      "specificity": "default"
+    }
+  ],
+  "metadata": {
+    "name": "apache",
+    "description": "Installs/Configures apache",
+    "long_description": "Installs/Configures apache",
+    "maintainer": "benzaid foued",
+    "maintainer_email": "benzaid.foued@gmail.com",
+    "license": "All Rights Reserved",
+    "platforms": {
+
+    },
+    "dependencies": {
+
+    },
+    "providing": {
+      "apache": ">= 0.0.0",
+      "apache::website": ">= 0.0.0"
+    },
+    "attributes": {
+
+    },
+    "recipes": {
+      "apache": "",
+      "apache::website": ""
+    },
+    "version": "0.1.0",
+    "source_url": "",
+    "issues_url": "",
+    "privacy": false,
+    "chef_versions": [
+      [
+        ">= 12.14"
+      ]
+    ],
+    "ohai_versions": [
+
+    ],
+    "gems": [
+
+    ]
+  },
+  "version": "0.1.0",
+  "name": "apache-0.1.0",
+  "cookbook_name": "apache",
+  "frozen?": false,
+  "chef_type": "cookbook_version",
+  "json_class": "Chef::CookbookVersion"
+}

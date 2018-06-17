@@ -7,3 +7,4 @@ node_name                "fbz"
 client_key               "#{current_dir}/fbz.pem"
 chef_server_url          "https://master.centos.local/organizations/linuxacademy"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+chef_zero.enabled true
